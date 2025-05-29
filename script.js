@@ -16,14 +16,3 @@ function fadeInEffect() {
 
 window.onload = fadeInEffect;
 
-
-
-document.addEventListener('DOMContentLoaded', function() {
-        const callouts = document.querySelectorAll('.callout');
-        callouts.forEach(callout => {
-            callout.addEventListener('click', function() {
-                this.classList.toggle('expanded');
-            });
-        });
-    });
-    
